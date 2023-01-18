@@ -30,7 +30,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 APPLICATION_APPS = [
-    'subjects'
+    'subjects',
+    'students'
 ]
 
 INSTALLED_APPS = [
@@ -82,8 +83,8 @@ DATABASES = {
         'HOST': 'localhost',
         'NAME': 'postgresql',
         'ENGINE': 'django.db.backends.postgresql',
-        'USER': 'usahd',
-        'PASSWORD': 'asd'
+        'USER': 'db_user',
+        'PASSWORD': 'db_pass'
     },
 }
 
